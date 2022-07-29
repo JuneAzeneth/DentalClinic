@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AllSmilesDENTALCLINIC.master.cs" Inherits="trial.AllSmilesDENTALCLINIC" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="Title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <link href="Stylesheet/stylesheets.css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="menu">
+                <ul>
+                    <li class="navigation_first_item"><a href="#">Profile</a></li>
+                    <li class="navigation_first_item"><a href="#">Registration Form</a></li>
+                    <li class="navigation_first_item"><a href="#">Records</a></li>
+                    <li class="navigation_first_item"><a href="#">Records</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="Contentbody" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear"></div>
+            <div class="footer">
+                <h5>Copyright@All Smiles DENTAL CLINIC 2022</h5>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
